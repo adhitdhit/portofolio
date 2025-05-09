@@ -1,0 +1,531 @@
+{%load static%}
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Ceevee - Free Responsive HTML5/CSS3 Template</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+ 
+
+    <link rel="stylesheet" href="{% static 'css/default.css' %}">
+    <link rel="stylesheet" href="{% static 'css/layout.css' %}">
+    <link rel="stylesheet" href="{% static 'css/media-queries.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Experiences</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+     
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Portofolio</h1>
+            <h3>Hello There !!!! <span>I'm ADHITYA NUR CAHYO</span> Undergraduated Telecommunication Engineering Student at Telkom University Bandung. 
+            
+          
+         </div>
+      </div>
+
+     
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="/static/images/foto3.jpg"  alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p> I am a Telecommunications Engineering student passionate about 5G networks, 
+               fiber optics, and wireless communication systems. Currently developing my skills in design, programming languages, fiber optics, IoT, SDN, cloud computing, RF engineering.
+               I am committed to continuous learning and am always seeking out opportunities to expand my knowledge. By staying updated with the latest industry trends, participating in research, and collaborating with industry experts, I am preparing to contribute to the development of the next generation of telecommunications technologies. 
+            </p>
+
+            <div class="row">
+
+               
+
+               <div class="columns download">
+                  <p>
+                     <a href="{% static 'pdf/CV_Adhitya Fix.pdf' %}" target="_blank" class="button"><i class="fa fa-download"></i>Download CV</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Bandung State Polytechnic</h3>
+                  <p class="info">Associate Degree Telecommunication Engineering <span>&bull;</span> <em class="date">2021</em></p>
+
+                  <p>
+                     During the Associate Degree in Telecommunication Engineering, students acquire practical knowledge in various areas of telecommunications. The program equips students with hands-on experience in designing and managing communication systems, both wired and wireless, using the latest technologies. Key skills developed include network configuration, troubleshooting, and the implementation of fiber optic and RF (Radio Frequency) systems. Students also learn to analyze and optimize telecommunication networks, work with IoT (Internet of Things) devices, and apply SDN (Software-Defined Networking) principles. 
+                     
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Telkom University Bandung</h3>
+                  <p class="info"> Bachelor Degree Telecommunication Engineering <span>&bull;</span> <em class="date">2024</em></p>
+
+                  <p>
+                     During the Bachelor's Degree in Telecommunication Engineering, students gain comprehensive and practical expertise in advanced telecommunication technologies and systems. The program emphasizes hands-on learning in designing, implementing, and managing both wired and wireless communication networks, including cutting-edge developments in 5G, fiber optics, and satellite communication. Students develop key skills in network architecture, signal processing, and troubleshooting, with a deep understanding of both hardware and software components used in telecommunication systems. Practical experience in IoT (Internet of Things) deployments, RF (Radio Frequency) engineering, and SDN (Software-Defined Networking) is also emphasized.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>BRIN Bandung KST Samaun Samadikun</h3>
+                  <p class="info">Internet Of Things (IoT) Assistant Researcher <span>&bull;</span> <em class="date">June - August 2023</em></p>
+
+                  <p>
+                     During the IoT Aquaculture research project at BRIN Bandung, I gained hands-on experience in applying Internet of Things (IoT) technologies to the aquaculture sector. The research focused on the integration of IoT systems in monitoring and optimizing aquatic environments for shrimp farming. I participated in developing IoT-based solutions for real-time monitoring of water quality, temperature, and oxygen levels, which are crucial for ensuring a sustainable and efficient aquaculture system. The practical experience also involved implementing sensors, data collection, and system integration, as well as analyzing the collected data to optimize farming practices. This experience enhanced my skills in IoT hardware and software development, data analytics, and troubleshooting, giving me a deeper understanding of how IoT can improve productivity and sustainability in the aquaculture industry.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+         <div class="three columns header-col">
+             <h1><span>Skills </span></h1>
+         </div>
+     
+         <div class="nine columns main-col">
+             <div class="skills-container" style=" display: flex; justify-content: space-between; flex-wrap: nowrap;">
+     
+                 <!-- Skill 1: Fiber -->
+                 <div class="skill" style="flex: 1 1 23%; margin: 20px; text-align: center;">
+                     <img src="/static/images/fiber.png" alt="Fiber Icon" style="width: 100px; height: auto; margin-bottom: 15px;">
+                     <h3 style="font-size: 1.2em; font-weight: bold; margin-bottom: 5px;">Fiber Optic</h3>
+                     <p style="font-size: 0.9em;">Fiber splicing, network design, testing, and troubleshooting</p>
+                 </div>
+     
+                 <!-- Skill 2: Network -->
+                 <div class="skill" style="flex: 1 1 23%; margin: 20px; text-align: center;">
+                     <img src="/static/images/network.png" alt="SEO Icon" style="width: 100px; height: auto; margin-bottom: 15px;">
+                     <h3 style="font-size: 1.2em; font-weight: bold; margin-bottom: 5px;">Network Engineering</h3>
+                     <p style="font-size: 0.9em;">Network configuration, routing and switching, maintain troubleshooting, network security</p>
+                 </div>
+     
+                 <!-- Skill 3: Antena/Radio Frequency -->
+                 <div class="skill" style="flex: 1 1 23%; margin: 20px; text-align: center;">
+                     <img src="/static/images/antena.png" alt="UI/UX Design Icon" style="width: 100px; height: auto; margin-bottom: 15px;">
+                     <h3 style="font-size: 1.2em; font-weight: bold; margin-bottom: 5px;">Antena/Radio Frequency</h3>
+                     <p style="font-size: 0.9em;">Antenna design, signal processing, frequency modulation, and RF circuit design</p>
+                 </div>
+     
+                 <!-- Skill 4: IoT -->
+                 <div class="skill" style="flex: 1 1 23%; margin: 20px; text-align: center;">
+                     <img src="/static/images/iot.png" alt="Web Development Icon" style="width: 100px; height: auto; margin-bottom: 15px;">
+                     <h3 style="font-size: 1.2em; font-weight: bold; margin-bottom: 5px;">Internet Of Things</h3>
+                     <p style="font-size: 0.9em;">Design IoT With A Sensors and Build Mobile Application</p>
+                 </div>
+
+                 
+     
+             </div>
+         </div>
+     </div>
+     
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1 style="color: black; font-weight: bold; font-size: 20px; border-bottom: 3px solid #F06000; margin-top:2px; padding-bottom: 10px">Projects</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+               <!-- First portfolio item -->
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+                     <a href="#modal-01" title="Antena Mikrostrip">
+                        <img alt="" src="/static/images/portfolio/ss5 (1).jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Antenna Mikrostrip</h5>
+                              <p>Antenna, Electronics</p>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+                  </div>
+               </div> <!-- item end -->
+            
+               <!-- Second portfolio item -->
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+                     <a href="#modal-02" title="">
+                        <img alt="" src="/static/images/portfolio/ss6 (1).jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Sistem Pendeteksi Kualitas Udara</h5>
+                              <p>IoT, Electronic, Monitoring</p>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+                  </div>
+               </div> <!-- item end -->
+            
+               <!-- Third portfolio item -->
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+                     <a href="#modal-03" title="">
+                        <img alt="" src="/static/images/portfolio/ss6 (1).jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Smart Canteen Application</h5>
+                              <p>Mobile Application</p>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+                  </div>
+               </div> <!-- item end -->
+            
+               <!-- Fourth portfolio item -->
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+                     <a href="#modal-04" title="">
+                        <img alt="" src="/static/images/portfolio/ss7 (1).jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Power Supply Amplifier</h5>
+                              <p>Electronics </p>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+                  </div>
+               </div> <!-- item end -->
+            </div> <!-- portfolio-wrapper end -->
+            
+             <!-- item end -->
+
+               
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="/static/images/portfolio/modals/ss1.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Antenna Mikrostrip 3,4 Ghz</h4>
+			      <p> The image shows a Microstrip Antenna designed for a frequency of 3.4 GHz. The top image displays the physical structure of the antenna, which uses a copper material on a dielectric substrate. The bottom image shows the microwave analyzer used to measure the performance of the antenna. The graph on the analyzer indicates the antenna's reflection coefficient (S11), which is used to assess how well the antenna is tuned to the 3.4 GHz frequency.</p>
+               <span class="categories"><i class="fa fa-tag">Antenna, RF, PCB</i></span>
+		      </div>
+
+            <div class="link-box">
+               
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="/static/images/portfolio/modals/ss2.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>IoT Air Measurement</h4>
+			      <p>IoT for air quality detection uses sensors to monitor and measure air parameters such as pollution, temperature, and humidity in real-time, providing accurate data to maintain environmental health.</p>
+               <span class="categories"><i class="fa fa-tag"></i>IoT, Monitoring</span>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="/static/images/portfolio/modals/ss3.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Smart Canteen Mobile Application</h4>
+			      <p>The Smart Canteen Order Mobile Application is designed to streamline the food ordering process in cafeterias. It allows users to view menus, place orders, and make payments directly from their smartphones. The app integrates real-time updates, enabling customers to track their order status and receive notifications when their food is ready. It aims to reduce waiting times, increase efficiency, and enhance the overall dining experience by offering a convenient, user-friendly interface for both customers and canteen staff.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Mobile Application, Order</span>
+		      </div>
+
+            <div class="link-box">
+               
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="/static/images/portfolio/modals/ss4.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Power Supply Amplifier</h4>
+			      <p>A Power Supply Amplifier is a crucial component in audio systems, responsible for boosting the electrical signal and delivering it to the speakers with enough power to produce sound. It converts low-voltage signals from a source device into higher voltage signals suitable for driving the speakers. The amplifier ensures stable power delivery while maintaining sound quality and reducing distortion. It is commonly used in various applications, such as home theater systems, public address systems, and musical instruments, providing the necessary power to drive speakers effectively.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Electronics, Power Supply</span>
+		      </div>
+
+            <div class="link-box">
+               
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+	      
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Client Testimonials</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                           to do what you believe is great work. And the only way to do great work is to love what you do.
+                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                           </p>
+                           <cite>Steve Jobs</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>Believe Just Believe In Yourself
+                           </p>
+                           <cite>Adhitya</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+    <!-- Contact Section End-->
+
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+      <section id="contact">
+            
+     
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               
+               
+                  <li><a href="https://mail.google.com/mail/u/2/#inbox" style="color : #F06000;;"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="https://linkedin.com/in/adhitya-nur-cahyo-93aab2125/" style="color: #F06000;;"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="https://www.instagram.com/adhitnc" style="color: #F06000;;"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="https://github.com/adhitdhit" style="color: #F06000;"><i class="fa fa-github"></i></a>
+</li>
+               
+
+            </ul>
+
+            <ul class="address">
+               <li>Portofolio</li>
+               
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; 2025 Adhitya Nur Cahyo</li>
+               
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+   </section>
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+
+   <script type="text/javascript" src="/static/js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="/static/js/jquery.flexslider.js"></script>
+   <script src="/static/js/waypoints.js"></script>
+   <script src="/static/js/jquery.fittext.js"></script>
+   <script src="/static/js/magnific-popup.js"></script>
+   <script src="/static/js/init.js"></script>
+   <script src="/static/js/modernizr.js"></script>
+
+</body>
+
+</html>

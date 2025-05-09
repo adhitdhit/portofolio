@@ -1,12 +1,8 @@
+# Use a stable Python version
 FROM python:3.9
 
-# Install PostgreSQL development libraries
-RUN apt-get update && apt-get install -y \
-    libpq-dev \
-    && rm -rf /var/lib/apt/lists/*
-
 # Set environment variable to ensure output is not buffered
-ENV PYTHONUNBUFFERED 1
+ENV PYTHONUNBUFFERED=1
 
 # Set the working directory inside the container
 WORKDIR /app
